@@ -10,16 +10,14 @@ const App = () => {
 
   return (
     <div className="bg-white min-h-screen">
-      {/* Memanggil Navbar */}
+      {/* navbar */}
       <Header />
 
-      {/* Memanggil Hero Section */}
+      {/* hero section */}
       <Hero />
-
-      {/* Parsing data state ke komponen CardGrid lewat props bernama 'feature' */}
       <CardGrid feature={feature} />
 
-      {/* Footer Utama */}
+      {/* Footer */}
       <footer className="bg-gray-900 text-gray-400 text-center py-8 px-8 text-sm">
       <p>&copy; 2026 BrandKu. All rights reserved.</p>
       </footer>

@@ -9,7 +9,6 @@ const CardGrid = ({ feature }) => {
       </h2>
       <div className="max-w-5xl mx-auto grid md:grid-cols-3 gap-6 px-6">
         
-        {/* Menggunakan 'item' agar tidak bertabrakan dengan nama parameter 'feature' */}
         {feature.map((item) => (
           <Card 
             key={item.id}
